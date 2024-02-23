@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/view-property-css.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-qCiYE6qHl4LvKt8yWuKd9PI3F+Z8XNXt2hx4IdQZ7W7OyY7fSLGeL6j8NOvSISoVbzU0s0W66P6P5ItWzBqNdHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- nav section -->
+    <section class="main">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo-img" src="images/logo (3).png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item me-5">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+
+            <a href="login.html" class="me-2">
+              <button class="button-contact" type="submit">Login</button>
+            </a>
+
+            <a href="signup.html"
+              ><button class="button-contact" type="submit">Sign up</button></a
+            >
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <div class="container section-padding">
+      <div class="row card ms-3 me-3 pt-4 pb-4 pe-2 ps-2">
+        <div class="col-lg-12">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carousel-img" src="images/v-3 (1).jpg" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-img" src="images/view-1.jpg" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-img" src="images/view-2.jpg" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-img" src="images/view-4.jpg" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="property-name">
+            <h3>Modern flat</h3>
+            <p>
+              <svg
+                style="color: #3678ea"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-alt"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+                />
+                <path
+                  d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                />
+              </svg>
+              <span class="location-text" class="search">
+                2234 southlea , United States
+              </span>
+            </p>
+          </div>
+
+          <div class="row property-detail">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <p>New York</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <p>$15,000</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <p>Flat</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <p>Sale</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h5>Detail</h5>
+              <hr />
+            </div>
+          </div>
+
+          <div class="row property-detail-section">
+            <div class="col-lg-6">
+              <p>rooms :2 BHK</p>
+              <p>bedroom :3</p>
+              <p>bathroom :2</p>
+              <p>balcony :1</p>
+              <p>carpet area :750sqft</p>
+            </div>
+
+            <div class="col-lg-6">
+              <p>room floor :3</p>
+              <p>total floors :22</p>
+              <p>furnished :semi-furnished</p>
+              <p>loan :available</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h5>Amenities</h5>
+              <hr />
+            </div>
+          </div>
+
+          <div class="row property-detail-section">
+            <div class="col-lg-3">
+              <p>lifts</p>
+              <p>security guards</p>
+              <p>play ground</p>
+              <p>water supply</p>
+              <p>power backup</p>
+            </div>
+
+            <div class="col-lg-3">
+              <p>parking area</p>
+              <p>shopping mall</p>
+              <p>schools</p>
+              <p>market area</p>
+              <p>gym</p>
+            </div>
+            <div class="col-lg-6">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.121550919213!2d74.3494910745083!3d31.520821347121757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f8c765bccb%3A0xb4de1637adb11427!2sOxford%20University%20Press!5e0!3m2!1sen!2s!4v1701601111688!5m2!1sen!2s"
+                  width="400"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <h5>Description</h5>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                eveniet eaque nostrum natus perferendis corrupti! Ullam officia
+                natus aliquam veritatis rem vel impedit, est eos eaque tempore
+                id doloribus ut
+              </p>
+            </div>
+          </div>
+
+          <a href="contact.html">
+            <button class="btn btn-primary property-button">
+              Contact us
+            </button></a
+          >
+
+          <button
+            class="btn btn-primary property-button"
+            ;
+            id="property-save"
+            onclick="clickSave()"
+          >
+            Save Property
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="container-fluid">
+        <div class="row footer-back ps-5 pe-5">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div>
+              <img class="logo-img" src="images/logo (3).png" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                adipisci, facilis dolor laboriosam.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div>
+              <h5>Services</h5>
+              <p>Family Property<br />Apartments<br />Resort</p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div>
+              <h5>About</h5>
+              <p>What we do<br />How we work<br />Who are us</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col">
+                <div class="text-center">
+                  <p class="socials">
+                    <span class="icon">
+                      <i class="bi bi-twitter text-white mx-1"></i>
+                    </span>
+                    <span class="icon">
+                      <i class="bi bi-facebook text-white mx-1"></i>
+                    </span>
+                    <span class="icon">
+                      <i class="bi bi-instagram text-white mx-1"></i>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr style="color: white; width: 100%" />
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <p>@real estate Rights are reserved by owners</p>
+            </div>
+
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              style="display: flex; flex-direction: row; gap: 15px"
+            >
+              <p>Term of service</p>
+              <p>Term of policy</p>
+              <p>Term of service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script/view.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
